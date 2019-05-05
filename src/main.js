@@ -8,5 +8,8 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: h => h(App),
+  data: {
+    message: 'This is a message from the app layer !'
+  }
 }).$mount('#app')
